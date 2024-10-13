@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>32 Smiles | Contact Us</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        body {
+            background-image: url('../picture/dental\ clinic\ room.avif');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            background-repeat:  no-repeat;
+        }
+        .error {
+            color: #ff4d4d;
+            font-size: 0.875em;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .form-control {
+            margin-bottom: 10px;
+        }
+        p{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+     <!-- Navbar -->
+   
+     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #007599;">
+   
+        <a class="navbar-brand" href="#">32 Smiles</a>
+   
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+   
+            <span class="navbar-toggler-icon"></span>
+   
+        </button>
+   
+        <div class="collapse navbar-collapse" id="navbarNav">
+   
+            <ul class="navbar-nav ml-auto">
+   
+                <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+   
+                <li class="nav-item"><a class="nav-link" href="../navpages/professionaledu.html">Professional Education</a></li>
+   
+                <li class="nav-item"><a class="nav-link" href="../navpages/patientedu.html">Patient Education</a></li>
+   
+                <li class="nav-item"><a class="nav-link" href="../navpages/research.html">Research</a></li>
+   
+                <li class="nav-item"><a class="nav-link" href="../navpages/products.html">Products</a></li>
+   
+                <li class="nav-item"><a class="nav-link" href="../navpages/contact.html">Contact Us</a></li>
+   
+            </ul>
+   
+        </div>
+   
+    </nav>
+    
+    <div class="img-fluid-1">
+    
+        <img src="../disese picture/32Smiles-LOGO.png" class="img-fluid" alt="32 Smiles Logo" style="margin-top: 100px;"><br>
+    
+    </div>
+
+    <div class="container mt-5">
+    
+        <h2 class="text-center mb-4">Contact Us</h2>
+    
+        <form id="contactForm" onsubmit="return validateContactForm()">
+    
+            <div>
+    
+                <label for="name">Name:</label>
+    
+                <input type="text" id="name" name="name" class="form-control">
+    
+                <div id="nameError" class="error"></div>
+    
+            </div>
+    
+            <div>
+    
+                <label for="email">Email:</label>
+    
+                <input type="text" id="email" name="email" class="form-control">
+    
+                <div id="emailError" class="error"></div>
+    
+            </div>
+    
+            <div>
+    
+                <label for="comment">Address:</label>
+    
+                <textarea id="comment" name="comment" class="form-control" rows="5"></textarea>
+    
+                <div id="commentError" class="error"></div>
+    
+            </div>
+    
+            <button type="submit" class="btn btn-primary">Submit</button>
+    
+        </form>
+
+    </div>
+
+    <div class="container mt-5">
+
+        <h2 class="text-center my-5">Feedback</h2>
+        
+        <form id="feedbackForm" onsubmit="return validateFeedbackForm()">
+        
+            <div>
+        
+                <label for="feedbackName">Name:</label>
+        
+                <input type="text" id="feedbackName" name="feedbackName" class="form-control">
+        
+                <div id="feedbackNameError" class="error"></div>
+        
+            </div>
+        
+            <div>
+        
+                <label for="feedbackEmail">Email:</label>
+        
+                <input type="text" id="feedbackEmail" name="feedbackEmail" class="form-control">
+        
+                <div id="feedbackEmailError" class="error"></div>
+        
+            </div>
+        
+            <div>
+        
+                <label for="feedbackMessage">Message:</label>
+        
+                <textarea id="feedbackMessage" name="feedbackMessage" class="form-control" rows="5"></textarea>
+        
+                <div id="feedbackMessageError" class="error"></div>
+        
+            </div>
+        
+            <button type="submit" class="btn btn-primary">Submit</button>
+        
+        </form>
+   
+    </div>
+
+        <div class="container mt-5">   
+               
+            <h2 class="text-center my-5" style="color: white;">Testimonials</h2>
+            
+            <div class="row">
+            
+                <div class="col-md-4 mb-4">
+            
+                    <div class="card testimonial-card">
+            
+                        <div class="card-body">
+            
+                            <p>"They provide excellent service and great products!"</p>
+            
+                            <h5 class="card-title">- John Doe</h5>
+            
+                        </div>
+            
+                    </div>
+            
+                </div>
+            
+                <div class="col-md-4 mb-4">
+            
+                    <div class="card testimonial-card">
+            
+                        <div class="card-body">
+            
+                            <p>"Highly recommend 32 Smiles for all your uniform needs."</p>
+            
+                            <h5 class="card-title">- Jane Smith</h5>
+            
+                        </div>
+            
+                    </div>
+            
+                </div>
+            
+                <div class="col-md-4 mb-4">
+            
+                    <div class="card testimonial-card">
+            
+                        <div class="card-body">
+            
+                            <p>"Outstanding quality and customer service!"</p>
+            
+                            <h5 class="card-title">- Michael Johnson</h5>
+            
+                        </div>
+            
+                    </div>
+            
+                </div>
+            
+            </div>
+     
+        </div>   
+        <br><br>
+     
+        <div class="container">
+            
+            <h2 class="text-center my-5" style="color: white;">Our Location</h2>
+            
+            <iframe 
+            
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28947.953859885376!2d67.01201137708728!3d24.915227835149945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33fbd469d9bcd%3A0x749325c6e39952f3!2sNazimabad%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1724329236334!5m2!1sen!2s" width="100%" height="400" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"title="Google Maps Location"></iframe>
+     
+        </div>
+
+       <!-- Footer -->
+       
+       <footer class="footer text-white pt-5 pb-4 mt-5" style="background-color: #007599;">
+       
+        <div class="container text-center text-md-left" style="background-color: #007599;">
+   
+            <div class="row text-center text-md-left">
+   
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+   
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">32 Smiles</h5>
+   
+                    <p style="color: white;">32 Smiles is dedicated to providing comprehensive dental care information and resources. We aim to increase awareness and educate people about dental health.</p>
+   
+                </div>
+
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Quick Links</h5>
+                
+                    <p><a href="../index.html" class="text-white" style="text-decoration: none;">Home</a></p>
+                
+                    <p><a href="../navpages/professionaledu.html" class="text-white" style="text-decoration: none;">Professional Education</a></p>
+                
+                    <p><a href="../navpages/patientedu.html" class="text-white" style="text-decoration: none;">Patient Education</a></p>
+                
+                    <p><a href="../navpages/research.html" class="text-white" style="text-decoration: none;">Research</a></p>
+                
+                    <p><a href="../navpages/products.html" class="text-white" style="text-decoration: none;">Products</a></p>
+                
+                </div>
+
+
+                
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Useful Links</h5>
+                
+                    <p><a href="../useful links/AboutUs.html" class="text-white" style="text-decoration: none;">About Us</a></p>
+                
+                    <p><a href="../navpages/contact.html" class="text-white" style="text-decoration: none;">Contact Us</a></p>
+                
+                    <p><a href="../useful links/PrivacyPolicy.html" class="text-white" style="text-decoration: none;">Privacy Policy</a></p>
+                
+                    <p><a href="../useful links/sitemap.html" class="text-white" style="text-decoration: none;">Site Map</a></p>
+                
+                    <p><a href="../useful links/TermsAndServices.html" class="text-white" style="text-decoration: none;">Terms of Service</a></p>
+                
+                </div>
+
+
+                
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+                
+                    <p style="color: white;"><i class="fas fa-home mr-3"></i> 1234 Main St, City, State 56789</p>
+                
+                    <p style="color: white;"><i class="fas fa-envelope mr-3"></i> info@32smiles.com</p>
+                
+                    <p style="color: white;"><i class="fas fa-phone mr-3"></i> +1 234 567 8901</p>
+                
+                </div>
+            
+            </div>
+
+
+            <div class="row align-items-center">
+            
+                <div class="col-md-7 col-lg-8">
+            
+                    <p class="text-center text-md-left" style="color: white;">© 2024 32 Smiles. All rights reserved.</p>
+            
+                </div>
+
+
+                
+                <div class="col-md-5 col-lg-4">
+                
+                    <div class="text-center text-md-right">
+                
+                        <ul class="list-unstyled list-inline">
+                
+                            <li class="list-inline-item"><a href="https://web.facebook.com" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-facebook"></i></a></li>
+                                
+                            <li class="list-inline-item"><a href="https://support.google.com" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-google-plus"></i></a></li>
+                
+                            <li class="list-inline-item"><a href="https://linkedin.com" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-linkedin"></i></a></li>
+                
+                            <li class="list-inline-item"><a href="https://www.instagram.com" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-instagram"></i></a></li>
+                
+                        </ul>
+                
+                    </div>
+                
+                </div>
+            
+            </div>
+       
+        </div>
+   
+    </footer>
+
+    <script>
+     
+     function validateContactForm() {
+     
+        let name = document.getElementById("name").value.trim();
+     
+        let email = document.getElementById("email").value.trim();
+     
+        let comment = document.getElementById("comment").value.trim();
+ 
+        let nameError = document.getElementById("nameError");
+        
+        let emailError = document.getElementById("emailError");
+        
+        let commentError = document.getElementById("commentError");
+   
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        
+        const nameRegex = /^[A-Za-z\s]{4,}$/;
+   
+        nameError.textContent = '';
+        
+        emailError.textContent = '';
+        
+        commentError.textContent = '';
+   
+        let isValid = true;
+   
+        if (name === "") {
+        
+            nameError.textContent = "Name is required.";
+        
+            isValid = false;
+        
+        } else if (!nameRegex.test(name)) {
+        
+            nameError.textContent = "Name must contain at least 4 letters.";
+        
+            isValid = false;
+        
+        }
+   
+        if (email === "") {
+        
+            emailError.textContent = "Email is required.";
+        
+            isValid = false;
+        
+        } else if (!emailRegex.test(email)) {
+        
+            emailError.textContent = "Please enter a valid email address.";
+        
+            isValid = false;
+        
+        }
+   
+        if (comment === "") {
+        
+            commentError.textContent = "Address is required.";
+        
+            isValid = false;
+        
+        }
+   
+        return isValid;
+        
+    }
+
+    function validateFeedbackForm() {
+    
+        let feedbackName = document.getElementById("feedbackName").value.trim();
+    
+        let feedbackEmail = document.getElementById("feedbackEmail").value.trim();
+    
+        let feedbackMessage = document.getElementById("feedbackMessage").value.trim();
+    
+        let feedbackNameError = document.getElementById("feedbackNameError");
+    
+        let feedbackEmailError = document.getElementById("feedbackEmailError");
+    
+        let feedbackMessageError = document.getElementById("feedbackMessageError");
+   
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        
+        const nameRegex = /^[A-Za-z\s]{4,}$/;
+   
+        feedbackNameError.textContent = '';
+        
+        feedbackEmailError.textContent = '';
+        
+        feedbackMessageError.textContent = '';
+   
+        let isValid = true;
+        
+        if (feedbackName === "") {
+        
+            feedbackNameError.textContent = "Name is required.";
+        
+            isValid = false;
+        
+        } else if (!nameRegex.test(feedbackName)) {
+        
+            feedbackNameError.textContent = "Name must contain at least 4 letters.";
+        
+            isValid = false;
+        
+        }
+   
+        if (feedbackEmail === "") {
+        
+            feedbackEmailError.textContent = "Email is required.";
+        
+            isValid = false;
+        
+        } else if (!emailRegex.test(feedbackEmail)) {
+        
+            feedbackEmailError.textContent = "Please enter a valid email address.";
+        
+            isValid = false;
+        
+        }
+        
+        if (feedbackMessage === "") {
+        
+            feedbackMessageError.textContent = "Message is required.";
+        
+            isValid = false;
+        
+        }
+        
+        return isValid;
+        
+    }
+    
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

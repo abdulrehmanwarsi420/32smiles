@@ -1,0 +1,183 @@
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    height: 700px;
+    background-color: #F3F3F7;
+}
+.navbar{
+    background-color: #007599;
+}
+.hero-image {
+    max-width: 100%;
+    height: auto;
+}
+.hero-text {
+    max-width: 50%;
+    padding: 20px;
+}
+.navbar-nav .nav-item .nav-link {
+    color: white !important;
+}
+
+.content {
+    margin-top: 30px;
+    padding: 20px;
+    /* background-color: #f8f9fa; */
+    border-radius: 5px;
+}
+h1, h2 {
+    color: #343a40;
+}
+    .img-fluid-1{
+        align-items: center;
+        background-repeat: no-repeat;
+        margin-top: 7px;
+    }
+    
+    .navbar-brand {
+        font-weight: bold;
+        z-index: 1000;
+        transition: background-color 0.3s;}
+        
+        .navbar-nav .nav-item .nav-link {
+            color: white !important;
+        }
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+/* Style for the card container */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+/* Card hover effect */
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Image styling */
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Card body styling */
+.card-body {
+    padding: 15px;
+}
+
+/* Card title styling */
+.card-title {
+        font-size: 1.25rem;
+        margin-bottom: 10px;
+        color: #333;
+    }
+    
+    /* Card text styling */
+    .card-text {
+        font-size: 1rem;
+        color: #666;
+    }
+    
+    /* Adding some margin to the bottom of the cards */
+    .card {
+        margin-bottom: 20px;
+    }
+    
+    /* Ensuring footer stays at the bottom */
+    body {
+        background-color: #F3F3F7;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    .content {
+        padding: 40px 20px;
+    }
+    .back-button {
+        margin-top: 20px;
+    }
+    .btn{
+        background-color: #007599;
+    }
+    .container-fluid {
+        flex: 1;
+    }
+    
+    
+    .container-fluid {
+        flex: 1;
+    }
+  .contactform{
+      background-color: #F3F3F7;
+  }
+  
+  .footer {
+    background-color: #007599;
+      color: white;
+      position: relative;
+      width: 100%;
+      margin: 0%;
+      padding: 0%;
+    }
+    
+    .footer h5 {
+        color: #ffc107;
+    }
+    
+    .footer a {
+        color: white;
+        text-decoration: none;
+    }
+    .hero-text {
+        padding-top: 20px;
+    }
+    .header h1 {
+        margin: 0;
+        font-size: 2rem;
+    }
+    .footer a:hover {
+        text-decoration: underline;
+    }
+    @media (max-width: 768px) {
+        .hero-section {
+            flex-direction: column;
+        }
+        .hero-text {
+            max-width: 100%;
+            text-align: center;
+        }
+    }
+@media (max-width: 861px) {
+    .card3 .col-md-3 {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+}
+@media (max-width: 767px) {
+    .card3 .col-md-3 {
+        flex: 0 0 99.99%;
+        max-width: 99.99%;
+    }
+}
+@media(min-width: 300px) {
+    #map{
+
+        height: 1050px;
+        width: 100px;
+    }
+}
